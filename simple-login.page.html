@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Login Page</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            color: lightgreen;
+        }
+
+        #input {
+            text-align: center;
+            width: 250px;
+            margin-left: 40%;
+        }
+
+        .user-box {
+            border: 1px solid rgb(219, 202, 202);
+            padding-top: 10px;
+            padding-bottom: 30px;
+            padding-left: 30px;
+            text-align: justify;
+            background-color: aqua;
+        }
+
+        .spinner {
+            position: relative;
+            padding: 8px 16px;
+            background: orange;
+            border: none;
+            outline: none;
+            border-radius: 2px;
+            cursor: pointer;
+            animation: submit 1s linear infinite;
+        }
+
+        .spinner:active {
+            background: greenyellow;
+        }
+
+        .spinner:hover {
+            color: antiquewhite;
+        }
+
+        .cantainer {
+            height: 10vh;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+        .a:hover {
+            color: aqua;
+        }
+
+        .spinner {
+            display: flex;
+            justify-content: center;
+        }
+
+      /* i have traid my best to make the login page */
+    </style>
+</head>
+
+<body>
+    <h1>
+        Simple login page by using HTML and CSS
+    </h1>
+    <section id="input">
+        <div class="user-box">
+            <div> 
+                <input class="a" type="name" value="" placeholder="Username">
+            </div>
+            <br><br>
+            <div>
+                <input class="b" type="name" value="" placeholder="Email">
+            </div>
+            <br><br>
+            <div>
+                <input class="c" type="name" value="" placeholder="Password">
+            </div>
+            <br><br>
+            <div>
+                <button class="spinner">Submit</button>
+            </div>
+            <div class="cantainer">
+                <div class="cercle"></div>
+                <span>loading...</span>
+            </div>
+            <br><br>
+        </div>
+    </section>
+
+</body>
+
+</html>
